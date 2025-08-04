@@ -1,0 +1,15 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+  background: #f2f2f2;
+}
+input, select {
+  margin-bottom: 10px;
+}
+pre {
+  background: #000;
+  color: #0f0;
+  padding: 10px;
+  height: 200px;
+  overflow-y: scroll;
+}

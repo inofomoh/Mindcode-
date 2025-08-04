@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MindCode SatelliteAgent</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>🌍 MindCode SatelliteAgent Simulator</h1>
+  <div>
+    <label>Battery Level (%): <input id="battery" type="number" value="100" /></label><br/>
+    <label>Temperature (°C): <input id="temperature" type="number" value="25" /></label><br/>
+    <label>Solar Panel Efficiency (%): <input id="efficiency" type="number" value="100" /></label><br/>
+    <label>Communication Link:
+      <select id="comm">
+        <option value="true">Connected</option>
+        <option value="false">Disconnected</option>
+      </select>
+    </label><br/>
+    <button onclick="simulate()">Run Agent</button>
+  </div>
+  <pre id="log"></pre>
+  <script src="mindcode.js"></script>
+</body>
+</html>
